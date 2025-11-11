@@ -1,9 +1,9 @@
-Part-0 Exercises
+<b>Part-0 Exercises</b>
 
 <b>Exercise: 0.4: New note diagram</b>
 
-sequenceDiagram
-<br>
+    sequenceDiagram
+    <br>
     participant browser
     <br>
     participant server
@@ -45,9 +45,12 @@ sequenceDiagram
 
 <b>Exercise: 0.5: Single page app diagram</b>
 
-sequenceDiagram
+    sequenceDiagram
+    <br>
     participant browser
+    <br>
     participant server
+    <br>
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
@@ -77,9 +80,12 @@ sequenceDiagram
 
 <b>Exercise: 0.6: New note in Single page app diagram</b>
 
-sequenceDiagram
+    sequenceDiagram
+    <br>
     participant browser
+    <br>
     participant server
+    <br>
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
