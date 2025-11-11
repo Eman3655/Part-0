@@ -1,10 +1,13 @@
 Part-0 Exercises
 
-<b>Exercise: 0.4: New note diagram<b>
+<b>Exercise: 0.4: New note diagram</b>
 
 sequenceDiagram
+<br>
     participant browser
+    <br>
     participant server
+    <br>
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
@@ -40,7 +43,7 @@ sequenceDiagram
 ![New Note Diagram](https://github.com/Eman3655/Part-0/blob/main/img.png?raw=true)
 
 
-Exercise: 0.5: Single page app diagram
+<b>Exercise: 0.5: Single page app diagram</b>
 
 sequenceDiagram
     participant browser
@@ -72,7 +75,7 @@ sequenceDiagram
 ![New Note Diagram](https://github.com/Eman3655/Part-0/blob/main/img2.png?raw=true)
 
 
-Exercise: 0.6: New note in Single page app diagram
+<b>Exercise: 0.6: New note in Single page app diagram</b>
 
 sequenceDiagram
     participant browser
