@@ -3,11 +3,11 @@
 <b>Exercise: 0.4: New note diagram</b>
 
     sequenceDiagram
-    </br>
+    
     participant browser
-    </br>
+
     participant server
-    </br>
+
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
@@ -46,11 +46,11 @@
 <b>Exercise: 0.5: Single page app diagram</b>
 
     sequenceDiagram
-    </br>
+    
     participant browser
-    </br>
+
     participant server
-    </br>
+
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
@@ -81,11 +81,11 @@
 <b>Exercise: 0.6: New note in Single page app diagram</b>
 
     sequenceDiagram
-    </br>
+
     participant browser
-    </br>
+
     participant server
-    </br>
+
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
