@@ -1,5 +1,6 @@
 Part-0 Exercises
-Exercise: 0.4: New note diagram
+
+<b>Exercise: 0.4: New note diagram<b>
 
 sequenceDiagram
     participant browser
