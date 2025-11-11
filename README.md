@@ -1,6 +1,4 @@
-<pre>
-```
-mermaid sequenceDiagram
+sequenceDiagram
     participant browser
     participant server
 
@@ -34,5 +32,6 @@ mermaid sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that re-renders the notes
-```
-</pre>
+
+![New Note Diagram](https://github.com/Eman3655/Part-0/blob/main/img.png?raw=true)
+
