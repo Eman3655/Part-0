@@ -1,7 +1,6 @@
 <h1>Part-0 Exercises</h1>
 
 <h2>Exercise: 0.4: New note diagram</h2>
-```mermaid
 sequenceDiagram 
     participant browser
     participant server
@@ -36,10 +35,10 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that re-renders the notes
-```
+![New Note Diagram](https://github.com/Eman3655/Part-0/blob/main/img.png?raw=true)
+
 
 <h2>Exercise: 0.5: Single page app diagram</h2>
-```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -67,10 +66,11 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: The browser executes the callback function that renders notes into the DOM 
-```
+![New Note Diagram](https://github.com/Eman3655/Part-0/blob/main/img2.png?raw=true)
+
+
 
 <h2>Exercise: 0.6: New note in Single page app diagram</h2>
-```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -82,7 +82,8 @@ sequenceDiagram
 
     Note right of browser: The browser updates the DOM to show the new note without reload the page
 
-```
+![New Note Diagram](https://github.com/Eman3655/Part-0/blob/main/img3.png?raw=true)
+
 
 
 
