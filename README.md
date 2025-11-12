@@ -2,12 +2,9 @@
 
 <h2>Exercise: 0.4: New note diagram</h2>
 ```mermaid
-    sequenceDiagram
-    
+sequenceDiagram 
     participant browser
-
     participant server
-
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
@@ -43,12 +40,9 @@
 
 <h2>Exercise: 0.5: Single page app diagram</h2>
 ```mermaid
-    sequenceDiagram
-    
+sequenceDiagram
     participant browser
-
     participant server
-
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
@@ -77,12 +71,9 @@
 
 <h2>Exercise: 0.6: New note in Single page app diagram</h2>
 ```mermaid
-    sequenceDiagram
-
+sequenceDiagram
     participant browser
-
     participant server
-
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
@@ -91,7 +82,7 @@
 
     Note right of browser: The browser updates the DOM to show the new note without reload the page
 
-    ```
+```
 
 
 
